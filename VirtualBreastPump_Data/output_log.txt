@@ -1,0 +1,46 @@
+Initialize engine version: 4.5.0f6 (fd4616464986)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 540M (ID=0xdf4)
+    Vendor:   NVIDIA
+    VRAM:     1994 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  0.064 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 75Hz; virtual: 3286x1080 at 0,0
+Platform assembly: C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\Boo.Lang.dll (this message is harmless)
+CameraLeft (UnityEngine.Camera)
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Platform assembly: C:\Users\Huy\Documents\VirtualBreastPump\VirtualBreastPump_Data\Managed\System.dll (this message is harmless)
+NullReferenceException: Object reference not set to an instance of an object
+  at System.String.memcpy1 (System.Byte* dest, System.Byte* src, Int32 size) [0x00000] in <filename unknown>:0 
+  at System.String.memcpy (System.Byte* dest, System.Byte* src, Int32 size) [0x00000] in <filename unknown>:0 
+  at (wrapper managed-to-native) OVR.Hmd:ovrHmd_GetTrackingState (intptr,double)
+  at OVR.Hmd.GetTrackingState (Double absTime) [0x00000] in <filename unknown>:0 
+  at OVRDevice.IsHMDPresent () [0x00000] in <filename unknown>:0 
+  at OVRMainMenu.CheckIfRiftPresent () [0x00000] in <filename unknown>:0 
+  at OVRMainMenu.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+CameraLeft (UnityEngine.Camera)
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
